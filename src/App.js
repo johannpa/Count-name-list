@@ -1,6 +1,7 @@
-import Like from "./components/Likes";
-import NameList from "./components/NameList";
+// import Like from "./components/Likes";
+// import NameList from "./components/NameList";
 
+import PostList from "./components/PostList";
 
 
 function App() {
@@ -8,8 +9,9 @@ function App() {
     <div className="App">
       <header className="App-header">
         <h1>Mon Appli React</h1>
-        <Like/>
-        <NameList/>
+        {/* <Like/> */}
+        {/* <NameList/> */}
+        <PostList/>
       </header>
     </div>
   );
