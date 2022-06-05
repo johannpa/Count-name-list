@@ -1,7 +1,12 @@
 // import Like from "./components/Likes";
 // import NameList from "./components/NameList";
 
-import PostList from "./components/PostList";
+import LevelA from "./components/LevelA";
+import MailContextProvider from "./contexts/MailContext";
+
+// import Calculator from "./components/Calculator";
+
+// import PostList from "./components/PostList";
 
 
 function App() {
@@ -11,7 +16,11 @@ function App() {
         <h1>Mon Appli React</h1>
         {/* <Like/> */}
         {/* <NameList/> */}
-        <PostList/>
+        {/* <PostList/> */}
+        {/* <Calculator/> */}
+        <MailContextProvider>
+          <LevelA/>
+        </MailContextProvider>
       </header>
     </div>
   );
